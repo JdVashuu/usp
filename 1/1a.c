@@ -34,3 +34,8 @@ int main(int argc, char *argv[]) {
     close(fd);
     return 0;
 }
+Commands to Execute:
+vi program_name.c (type program here)
+vi file_name.txt (type some content here)
+cc program_name.c
+./a.out <file_name>
