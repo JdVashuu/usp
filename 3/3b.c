@@ -19,3 +19,7 @@ int main(int argc, char *argv[]) {
         }
     }
 }
+Commands to Execute:
+vi program_name.c (type program here)
+cc program_name.c
+./a.out <path of the directory> [Ex. /home/cs6a16/Downloads ]
