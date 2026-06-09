@@ -47,3 +47,12 @@ int main(int argc, char *argv[]) {
     remove_empty_files(directory);
     return 0;
 }
+Commands to Execute:
+vi program_name.c
+    cc program_name.c
+mkdir demo
+cd demo
+Inside demo directory, create an empty file
+vi t1.txt
+cd .. (come out of the directory)
+./a.out <path_to_your_directory> (Ex. ./a.out /home/Aneesh/demo)
