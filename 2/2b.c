@@ -41,3 +41,7 @@ int main() {
     }
     return 0;
 }
+Commands to Execute:
+vi program_name.c 
+cc program_name.c
+./a.out
