@@ -1,13 +1,3 @@
-echoall.c
-#include<stdio.h>
-#include<stdlib.h>
-int main(int argc,char *argv[]){
-int i;
-for(i=0;i<argc;i++){
-printf("argv[%d]= %s\n",i,argv[i]);
-}
-return 0;
-}
 inter.c
 #include<stdio.h>
 #include<sys/stat.h>
@@ -27,11 +17,4 @@ printf("error\n");
 }
 return 0;
 }
-textinterpreter file
-#! /home/<your name/computer name>/echoall my2
-[Ex. #! /home/aneesh/echoall my2]
-Commands to Execute:
-gcc -o echoall echoall.c
-chmod 777 textinterpreter
-gcc -o inter inter.c
-./inter
+
