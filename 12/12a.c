@@ -5,7 +5,7 @@
 #include <unistd.h>
 
 int main(void) {
-    pid_t pid, pid1, pid2;
+    pid_t pid, pid2, pid3;
     if ((pid = fork()) < 0) {
         printf("fork error");
     } else if (pid == 0) { /* first child */
